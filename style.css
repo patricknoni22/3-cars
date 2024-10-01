@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    margin: 3rem auto;
+    width: 100%;
+    padding: 10px;
+    width: 700px;
+    color: white;
+    Font-size: 15px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: 420px;
+line-height: 20px;
+
+}
+section{
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2{
+    font-weight: 700;
+    margin: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+} 
+div{
+    padding: 12px;
+    margin: 12px auto;
+}
+
+.sedan{
+    background-color:hsl(31, 77%, 52%);
+    width: 300px;
+    border-radius: 5px  0 0 5px;
+}
+.suvs{
+
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    border-radius:  0 5px 5px 0 ;
+    padding-bottom: 1.2rem;
+
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin: 20px 12px;
+    font-weight: 400;
+    padding: 15px;
+    margin: 20px auto;
+
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    width: 40px;
+}
+.sedan a{
+    color:hsl(31, 77%, 52%) ;
+}
+.suvs a{
+    color:  hsl(184, 100%, 22%);
+}
+.luxury a{
+    color: hsl(179, 100%, 13%); ;
+}
+a:hover{
+    background-color:transparent ;
+    color: #fff;
+}
+@media ( max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction:column;
+        width: 300px;
+        align-items: flex-start;
+        justify-content: start;
+        margin: 1rerm auto;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        height: 90%;
+        height: 450px;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    p{
+        margin: 20px 10px;
+        padding: 9px;
+        word-spacing: 1.5px;
+        line-height: 25px;
+    }
+    .luxury{
+    border-radius:  0 0 3px 3px;
+    margin-bottom: 1rem;
+    }
+    .sedan{
+        border-radius: 3px 3px 0 0;
+    }
+    .svg{
+
+        margin-bottom: 50px;
+        height: 68px;
+        display: inline;
+    }
+}
